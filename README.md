@@ -23,6 +23,7 @@
 **🔄 GitOps & CI/CD**  
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Forgejo Actions](https://img.shields.io/badge/Forgejo-000000?logo=forgejo&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?logo=gitlab&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white)
 
 **📝 Infrastructure as Code**  
@@ -38,8 +39,8 @@
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![Jaeger](https://img.shields.io/badge/Jaeger-000000?logo=jaeger&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-2C3D50?logo=grafana&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 
 ---
 
