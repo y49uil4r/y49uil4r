@@ -1,0 +1,111 @@
+# ========================================
+# OPERATING SYSTEMS
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*.~
+*~
+.*.swp
+.*.swo
+.*.swn
+.*.swo
+.*.swx
+.*.lock
+.tmp
+.temp
+
+# ========================================
+# EDITORS AND DEVELOPMENT ENVIRONMENTS
+# ========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+.sublime-cache/
+.sublime-commands
+
+# ========================================
+# LOCAL CONFIGURATION FILES
+# ========================================
+
+.env
+.env.local
+.env.*.local
+*.local
+.secrets
+.config.local
+*.secret
+
+# ========================================
+# LOGS AND TEMPORARY FILES
+# ========================================
+
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.lock
+*.seed
+*.backup
+
+# ========================================
+# DEPENDENCY AND BUILD FOLDERS
+# ========================================
+
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ========================================
+# PERSONAL OR EVIDENCE FOLDERS
+# ========================================
+
+zNotes/          # Tu carpeta de notas/pruebas
+scratch/
+tmp/
+temp/
