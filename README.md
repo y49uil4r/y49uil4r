@@ -307,32 +307,34 @@ graph TB
             end
             subgraph K3S["Kubernetes"]
                 subgraph C1["Cluster 1: Apps"]
-                    C1M["k3s-master"]
-                    C1W1["k3s-worker1"]
-                    C1W2["k3s-worker2"]
+                    C1M["k3s-master.lab.loc"]
+                    C1W1["k3s-worker1.lab.loc"]
+                    C1W2["k3s-worker2.lab.loc"]
                     C1S["Linkerd Mesh"]
                     C1F["Flux CD"]
                 end
                 subgraph C2["Cluster 2: DB"]
-                    C2M["pg-primary"]
-                    C2R1["pg-replica1"]
-                    C2R2["pg-replica2"]
+                    C2M["pg-primary.lab.loc"]
+                    C2R1["pg-replica1.lab.loc"]
+                    C2R2["pg-replica2.lab.loc"]
                     C2S["CloudNativePG"]
                     C2F["Flux CD"]
                 end
             end
             subgraph AI["AI Stack"]
-                AIORCH["ai-orch<br/>Fabric"]
-                AIBE["ai-be<br/>LocalAI"]
+                AIORCH["ai-orch.lab.loc<br/>Fabric"]
+                AIBE["ai-be.lab.loc<br/>LocalAI"]
+                MCP["mcp.lab.loc<br/>MCP Server"]
             end
             subgraph OBSEC["Observability & Security"]
-                LOGS["logs<br/>OpenObserve"]
-                O11Y["o11y<br/>Beszel"]
-                METRICS["metrics<br/>VictoriaMetrics"]
-                KALI["sec<br/>Kali"]
-                SCANNER["scanner<br/>Trivy"]
-                PERF["perf<br/>eBPF"]
-                PGSQL["pgsql<br/>Sandbox"]
+                LOGS["logs.lab.loc<br/>OpenObserve"]
+                O11Y["o11y.lab.loc<br/>Beszel"]
+                METRICS["metrics.lab.loc<br/>VictoriaMetrics"]
+                SEC["sec.lab.loc<br/>Kali"]
+                SCANNER["scanner.lab.loc<br/>Trivy"]
+                PERF["perf.lab.loc<br/>eBPF"]
+                PGSQL["pgsql.lab.loc<br/>Sandbox"]
+                CA["ca.lab.loc<br/>Smallstep CA"]
             end
             subgraph INCUS_INFRA["Incus Integrated Services"]
                 DNS["DNS"]
@@ -345,9 +347,9 @@ graph TB
     class GATEWAY,CACHE,SECRET,CODE core
     class C1M,C1W1,C1W2,C2M,C2R1,C2R2 k8s
     class C1S,C2S,C1F,C2F k8s
-    class AIORCH,AIBE ai
-    class LOGS,O11Y,METRICS obs
-    class KALI,SCANNER sec
+    class AIORCH,AIBE,MCP ai
+    class LOGS,O11Y,METRICS,CA obs
+    class SEC,SCANNER sec
     class PERF,PGSQL obs
     class DNS,DHCP,S3 infra
     class CORE_SVC,K3S,AI,OBSEC,INCUS_INFRA boundary
@@ -425,6 +427,7 @@ graph TB
     GATEWAY --> C1
     GATEWAY --> C2
     GATEWAY --> AIORCH
+    GATEWAY --> MCP
     AIORCH --> AIBE
     AIBE -.->|Cache| CACHE
 
