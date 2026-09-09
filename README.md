@@ -128,7 +128,7 @@
   <h4>Building (Current projects)</h4>
   <ul style="list-style: none; padding-left: 0;">
     <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/lab-loc">Hybrid Zero Trust Homelab (lab.loc)</a></li>
-    <li><img src="https://api.iconify.design/bi/eye.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/silent-audit">Silent Audit — Non‑intrusive web analysis toolkit</a></li>
+   <!-- <li><img src="https://api.iconify.design/bi/eye.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/silent-audit">Silent Audit — Non‑intrusive web analysis toolkit</a></li> -->
     <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/book-git-mastery"><i>Dominando Git: de principiante a experto</i></a> (Mastering Git: From Beginner to Expert)</li>
     <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/book-linux-kernel-infrastructure"><i>Linux: del kernel a la infraestructura</i></a> (Linux: From Kernel to Infrastructure)</li>
   </ul>
