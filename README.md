@@ -127,8 +127,8 @@
    <td width="50%" valign="top">
   <h4>Building (Current projects)</h4>
   <ul style="list-style: none; padding-left: 0;">
-    <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/infra">Hybrid Zero Trust Homelab (lab.loc)</a></li>
-    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="http://lab.y49uil4r.dev/"><i>The Independent Engineer's Archive</i></a></li>
+    <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/infra">Hybrid Zero Trust Homelab (lab.loc)</a> local infrastructure laboratory operated from bare metal to cloud.</li>
+    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="http://lab.y49uil4r.dev/"><i>The Independent Engineer's Archive</i></a> library of technical knowledge built to bridge the gap between theory and production‑grade infrastructure.</li>
   </ul>
 </td>
   </tr>
