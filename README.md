@@ -127,10 +127,8 @@
    <td width="50%" valign="top">
   <h4>Building (Current projects)</h4>
   <ul style="list-style: none; padding-left: 0;">
-    <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/lab-loc">Hybrid Zero Trust Homelab (lab.loc)</a></li>
-   <!-- <li><img src="https://api.iconify.design/bi/eye.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/silent-audit">Silent Audit — Non‑intrusive web analysis toolkit</a></li> -->
-    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/book-git-mastery"><i>Dominando Git: de principiante a experto</i></a> (Mastering Git: From Beginner to Expert)</li>
-    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/book-linux-kernel-infrastructure"><i>Linux: del kernel a la infraestructura</i></a> (Linux: From Kernel to Infrastructure)</li>
+    <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/y49uil4r/infra">Hybrid Zero Trust Homelab (lab.loc)</a></li>
+    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="http://lab.y49uil4r.dev/"><i>The Independent Engineer's Archive</i></a></li>
   </ul>
 </td>
   </tr>
@@ -140,10 +138,10 @@
 
 ## <img src="https://api.iconify.design/bi/signpost-2.svg?color=%237d8590" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> How to Navigate This Profile
 
-- **Main Lab Project**: All infrastructure, configuration, and architecture decisions live in the **[lab-loc](https://github.com/y49uil4r/lab-loc)** repository. Start here if you want to understand how I design, operate, and document a complete platform.
+- **Main Lab Project**: All infrastructure, configuration, and architecture decisions live in the **[infra](https://github.com/y49uil4r/infra)** repository. Start here if you want to understand how I design, operate, and document a complete platform.
 - **Deep Dives & Manuals**: I publish detailed technical books and guides as separate repositories. Each covers a specific domain (Linux kernel, performance, security, etc.). Explore the pinned repositories below or search by topic.
 - **Runbooks & Operations**: Day‑2 operational procedures are part of the lab repository, written to be executed during real incidents.
-- **Documentation & Reproducibility (`docs/`)**: The repository includes a dedicated `docs/` folder. Inside, **`docs/incus/`** provides the configuration files (playbooks, scripts) to fully recreate the Incus environment. **`docs/proxmox/`** contains design documentation, security policies, and sanitized command outputs to demonstrate the Proxmox cluster's capabilities without exposing sensitive customer information.
+- **Documentation & Reproducibility (`cu/deploy/`)**: The repository includes a dedicated `cu/deploy/` folder. Inside, **`cu/deploy/incus/`** provides the configuration files (playbooks, scripts) to fully recreate the Incus environment. **`us/deploy/pve-cluster/`** contains design documentation, security policies, and sanitized command outputs to demonstrate the Proxmox cluster's capabilities without exposing sensitive customer information.
 - **Everything else**: Smaller experiments, scripts, and notes live in their own repos, linked where relevant.
 
 <br/>
