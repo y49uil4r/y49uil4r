@@ -128,7 +128,7 @@
   <h4>Building (Current projects)</h4>
   <ul style="list-style: none; padding-left: 0;">
     <li><img src="https://api.iconify.design/bi/house-door.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> <a href="https://github.com/lab-local/infra">Hybrid Zero Trust Homelab (lab.loc)</a> local infrastructure laboratory operated from bare metal to cloud.</li>
-    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"><i>The Independent Engineer's Archive</i></a> library of technical knowledge built to bridge the gap between theory and production‑grade infrastructure.</li>
+    <li><img src="https://api.iconify.design/bi/book-half.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"><i> The Independent Engineer's Archive</i></a> library of technical knowledge built to bridge the gap between theory and production‑grade infrastructure.</li>
   </ul>
 </td>
   </tr>
@@ -154,7 +154,7 @@ Repositories will be published as they mature.
 <br/>
 
 <details open>
-<summary><b><img src="https://api.iconify.design/bi/diagram-2.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> Hybrid Zero Trust Lab — lab.loc</b></summary>
+<summary><b><img src="https://api.iconify.design/bi/diagram-2.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> Hybrid Zero Trust Lab — LAB.LOC</b></summary>
 <br/>
 
 ### Case Study: LAB.LOC – Federated Hybrid Zero Trust Architecture
@@ -224,7 +224,7 @@ A **DNSMASQ** instance on `core` is authoritative for the `*.ts.loc` domain, res
 - **Access Control:** Firewalls on all endpoints enforce `default‑deny` inbound policies, only allowing established connections and required overlay services.
 - **Monitoring & Updates:** VPN connection logs and DNS queries are tracked; private keys are stored securely (via OpenBao) and rotated periodically.
 
-> 📌 *Want to see the actual routing tables, interface configs, and how we balance performance with security? Head over to [docs/performance-security/fast-and-secure-by-design.md](docs/performance-security/fast-and-secure-by-design.md) – it’s packed with real examples and trade-offs from our “Fast & Secure by Design” philosophy.*
+<!-- > 📌 *Want to see the actual routing tables, interface configs, and how we balance performance with security? Head over to [docs/performance-security/fast-and-secure-by-design.md](docs/performance-security/fast-and-secure-by-design.md) – it’s packed with real examples and trade-offs from our “Fast & Secure by Design” philosophy.* -->
 
 ---
 
