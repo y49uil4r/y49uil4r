@@ -153,7 +153,7 @@ Repositories will be published as they mature.
 
 <br/>
 
-<details open>
+<details close>
 <summary><b><img src="https://api.iconify.design/bi/diagram-2.svg?color=%237d8590" width="16" height="16" style="vertical-align: middle; margin-right: 6px;"> Hybrid Zero Trust Lab — LAB.LOC</b></summary>
 <br/>
 
