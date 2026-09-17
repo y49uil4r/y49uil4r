@@ -252,7 +252,10 @@ A **DNSMASQ** instance on `core` is authoritative for the `*.ts.loc` domain, res
 ![Architecture Diagram](.assets/architecture-diagram.png)
 
 <details>
-<summary>View Mermaid source code</summary>
+ <summary>
+    <img src="https://api.iconify.design/bi/diagram-3.svg?color=%237d8590" width="18" height="18" style="vertical-align: middle; margin-right: 6px;">
+    <b>View Mermaid source code</b> — <a href="https://www.mermalaid.com/">open in Mermalaid</a>
+  </summary>
 ```mermaid
 %%{init: {'themeVariables': {'clusterBkg': 'transparent'}}}%%
 graph TB
