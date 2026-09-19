@@ -50,6 +50,18 @@
       <p>I focus on application/system containers (OCI & LXC), Kubernetes orchestration, and declarative continuous delivery to supply reproducible, automated, and observable environments.</p>
     </td>
   </tr>
+    <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://api.iconify.design/bi/gear.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Automation</h3>
+      <p>Infrastructure as Code, automation and CI/CD.</p>
+      <p>Deployment strategies adapt to the scale—from lightweight GitOps loops using OpenTofu/Ansible on LXC containers to fully automated Kubernetes platforms managed via Flux CD.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><img src="https://api.iconify.design/bi/eye.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Observability</h3>
+      <p>Metrics, logs and traces.</p>
+      <p>Observability is about understanding system behavior and execution flows under the hood, not collecting static dashboards.</p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><img src="https://api.iconify.design/bi/speedometer2.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Performance</h3>
@@ -60,18 +72,6 @@
       <h3><img src="https://api.iconify.design/bi/shield-lock.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Security</h3>
       <p>Security integrated by design.</p>
       <p>From immutable infrastructure provisioning to workload execution, I work toward making security part of the engineering process rather than a final verification step.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://api.iconify.design/bi/eye.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Observability</h3>
-      <p>Metrics, logs and traces.</p>
-      <p>Observability is about understanding system behavior and execution flows under the hood, not collecting static dashboards.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><img src="https://api.iconify.design/bi/gear.svg?color=%237d8590" width="20" height="20" style="vertical-align: middle; margin-right: 6px;"> Automation</h3>
-      <p>Infrastructure as Code, automation and CI/CD.</p>
-      <p>Deployment strategies adapt to the scale—from lightweight GitOps loops using OpenTofu/Ansible on LXC containers to fully automated Kubernetes platforms managed via Flux CD.</p>
     </td>
   </tr>
 </table>
