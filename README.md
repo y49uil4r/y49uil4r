@@ -1,5 +1,5 @@
 <div align="left">
-  <img src=".assets/banner.jpg" alt="Infrastructure & Platform Engineer" width="100%">
+  <img src=".assets/mapa_puerto_ilustrado.jpeg" alt="Infrastructure & Platform Engineer" width="100%">
   
   <br/>
   
